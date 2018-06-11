@@ -1,5 +1,8 @@
 package ch02linkedlists;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by vagrant on 4/3/18.
  */
@@ -38,12 +41,4 @@ public class MyNode {
         return head;
     }
 
-    public static void printNodes(MyNode head) {
-        MyNode itr = head;
-        while (itr.next != null) {
-            System.out.println(itr.data);
-            itr = itr.next;
-        }
-        System.out.println(itr.data);
-    }
 }
