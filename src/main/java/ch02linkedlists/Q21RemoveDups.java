@@ -3,6 +3,7 @@ package ch02linkedlists;
 import java.util.HashSet;
 
 /**
+ * Question:
  * 1. Write code to remove duplicates from an unsorted linked list.
  * 2. How would you solve this problem if a temporary buffer is not allowed?
  */
